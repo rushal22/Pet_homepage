@@ -1,16 +1,15 @@
-import {Box} from "@mui/material";
-import Header from "./header"
-import Footer from "./footetr"
+import { Box } from "@mui/material";
+import Header from "./header";
+import Footer from "./footetr";
+import Ticker from "./ticker";
 
-export default function Layout({children}) {
-
-    return (
-            <Box>
-                <Header/>
-                <Box>
-                    {children}
-                </Box>
-                <Footer/>
-            </Box>
-    )
+export default function Layout({ children }) {
+  return (
+    <Box>
+      <Ticker />
+      <Header />
+      <Box>{children}</Box>
+      <Footer />
+    </Box>
+  );
 }

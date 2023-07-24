@@ -1,7 +1,8 @@
 import { createTheme } from "@mui/material/styles";
+import { Inter } from "next/font/google"
 
 const nunitoFont = {
-  fontFamily: 'Nunito, sans-serif',
+  fontFamily: 'Nunito , Inter',
 };
 
 export const theme = createTheme({
@@ -9,7 +10,7 @@ export const theme = createTheme({
     button: {
       textTransform: "none",
     },
-    fontFamily: 'Nunito, sans-serif',
+    fontFamily: 'Nunito',
 h1: {
   fontWeight: 800,
   fontSize: "20px",
