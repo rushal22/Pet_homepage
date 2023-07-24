@@ -263,35 +263,32 @@ export const OneMoreFriendFun = {
   description: `"Find your furry soulmate at Our Pet Shop."`,
 };
 
-export const OurBlogs = 
-  {
-    title: "Our Blogs",
-    card: [
-      {
-        id: 1,
-        path: "/images/home/our-blogs/blog-1.svg",
-        title: "How to Choose the Right Bully Stick for Your Dog",
-        description:
-          "Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly.",
-      },
-      {
-        id: 2,
-        path: "/images/home/our-blogs/blog-2.svg",
-        title: "Saving Lives: Animal House Shelter And Downtown Pet Supply",
-        description:
-          "Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly.",
-      },
-      {
-        id: 3,
-        path: "/images/home/our-blogs/blog-3.svg",
-        title: "Himalayan Yak Chews: 11 Benefits You Need To Know",
-        description:
-          "Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly.",
-    
-    }
-  ]
-  }
-
+export const OurBlogs = {
+  title: "Our Blogs",
+  card: [
+    {
+      id: 1,
+      path: "/images/home/our-blogs/blog-1.svg",
+      title: "How to Choose the Right Bully Stick for Your Dog",
+      description:
+        "Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly.",
+    },
+    {
+      id: 2,
+      path: "/images/home/our-blogs/blog-2.svg",
+      title: "Saving Lives: Animal House Shelter And Downtown Pet Supply",
+      description:
+        "Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly.",
+    },
+    {
+      id: 3,
+      path: "/images/home/our-blogs/blog-3.svg",
+      title: "Himalayan Yak Chews: 11 Benefits You Need To Know",
+      description:
+        "Below is an excerpt of porch.com article “ Moving with Pets? We have the Experts advice to do it Properly.",
+    },
+  ],
+};
 
 const FooterGallery = [
   {
@@ -299,20 +296,20 @@ const FooterGallery = [
     pic: [
       {
         id: 1,
-        path: "/image/home/footer/footer-1.svg"
+        path: "/image/home/footer/footer-1.svg",
       },
       {
         id: 2,
-        path: "/image/home/footer/footer-2.svg"
+        path: "/image/home/footer/footer-2.svg",
       },
       {
         id: 3,
-        path: "/image/home/footer/footer-3.svg"
+        path: "/image/home/footer/footer-3.svg",
       },
       {
         id: 4,
-        path: "/image/home/footer/footer-4.svg"
+        path: "/image/home/footer/footer-4.svg",
       },
-    ]
-  }
-]
+    ],
+  },
+];

@@ -21,14 +21,14 @@ export default function PetCard({ petCardData }) {
       />
       <CardContent>
         <PetCardTitleWrapper aria-level={petCardData?.title}>
-          <Typography variant="osct">{petCardData.title}</Typography>
+          <Typography variant="osct">{petCardData?.title}</Typography>
         </PetCardTitleWrapper>
         <PetCardDescriptionContainer>
-          {petCardData.details && petCardData.details.length
-            ? petCardData.details.map((details) => (
-                <PetCardDescriptionWrapper key={details.id}>
-                  <Typography variant="oscd">{details.key} : </Typography>
-                  <Typography variant="oscd">{details.value}</Typography>
+          {petCardData?.details && petCardData?.details.length
+            ? petCardData?.details.map((details) => (
+                <PetCardDescriptionWrapper key={details?.id}>
+                  <Typography variant="oscd">{details?.key} : </Typography>
+                  <Typography variant="oscd">{details?.value}</Typography>
                 </PetCardDescriptionWrapper>
               ))
             : null}

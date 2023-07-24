@@ -14,8 +14,8 @@ export default function MyCarousel({ items }) {
         {items && items.length? items.map((item)=>(
        <Box  position={"relative"} key={item.id} sx={{ display : "flex" , justifyContent : "center" , bgcolor: "#D4E6F4"}}>
         <Box  paddingTop={"36px"} position={"absolute"} sx={{display:"flex" , flexDirection: "column", alignItems: "center"}}>
-          <Typography variant="h2" fontFamily={"Nunito"}>{item.title}</Typography>
-          <Typography variant="h3" fontFamily={"Nunito"}>{item.description}</Typography>
+          <Typography variant="h2" fontFamily={"Nunito"}>{item?.title}</Typography>
+          <Typography variant="h3" fontFamily={"Nunito"}>{item?.description}</Typography>
         </Box>
         <img
           src={item.path}

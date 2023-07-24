@@ -8,7 +8,7 @@ import { Box, Typography } from "@mui/material";
 import BlogCard from "./card";
 
 export default function Blogs({ blogData }) {
-  console.log(blogData);
+ 
   return (
     <BlogsContainer>
       {blogData && (
@@ -20,7 +20,7 @@ export default function Blogs({ blogData }) {
           <BlogCardContainer>
             {blogData.card && blogData.card.length
               ? blogData.card.map((card) => (
-                  <BlogCard key={card.id} blogCardData={card} />
+                  <BlogCard key={card?.id} blogCardData={card} />
                 ))
               : null}
           </BlogCardContainer>

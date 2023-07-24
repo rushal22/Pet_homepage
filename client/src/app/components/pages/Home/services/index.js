@@ -22,7 +22,7 @@ export default function Services({ serviceData }) {
           <ServicesCardContainer>
             {serviceData.card && serviceData.card.length
               ? serviceData.card.map((card) => (
-                  <ServiceCard key={card.id} cardData={card} />
+                  <ServiceCard key={card?.id} cardData={card} />
                 ))
               : null}
           </ServicesCardContainer>
