@@ -1,9 +1,13 @@
+"use client"
 import { createTheme } from "@mui/material/styles";
-import { Inter } from "next/font/google"
+import { Inter , Nunito } from "next/font/google"
 
-const nunitoFont = {
-  fontFamily: 'Nunito , Inter',
-};
+
+
+
+
+const nunitoFont = Nunito({ subsets: ['latin'] , fontFamily:["Nunito"]})
+const interFont = Inter({ subsets: ['latin'] , fontFamily: ['Inter'] })
 
 export const theme = createTheme({
   typography: {
@@ -84,7 +88,24 @@ h8: {
     lineHeight: "14.72px",
   },
 },
-
+obt: {
+  fontWeight: 700,
+  fontSize: "20px",
+  lineHeight: "30px",
+  "@media (min-width: 900px)": {
+    fontSize: "18px",
+    lineHeight: "28px",
+  },
+},
+obd: {
+  fontWeight: 400,
+  fontSize: "20px",
+  lineHeight: "30px",
+  "@media (min-width: 900px)": {
+    fontSize: "14px",
+    lineHeight: "24.01px",
+  },
+},
 
 osct: {
   fontWeight: 800,
@@ -217,7 +238,7 @@ b2: {
   overrides: {
     MuiCssBaseline: {
       '@global': {
-        '@font-face': [nunitoFont],
+        '@font-face': [nunitoFont , interFont],
       },
     },
   },

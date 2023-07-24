@@ -20,12 +20,12 @@ export const HeaderWrapperCenter = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  width: "60%",
+  width: "55%",
 }));
 
 export const HeaderWrapperRight = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  width: "30%",
+  width: "35%",
 }));

@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Header from "./header";
-import Footer from "./footetr";
+import Footer from "./footer";
 import Ticker from "./ticker";
 
 export default function Layout({ children }) {
@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     <Box>
       <Ticker />
       <Header />
-      <Box>{children}</Box>
+      <Box bgcolor={"white"}>{children}</Box>
       <Footer />
     </Box>
   );

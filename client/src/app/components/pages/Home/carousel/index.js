@@ -2,12 +2,15 @@ import React from "react";
 import Carousel from "react-material-ui-carousel";
 import { Paper, Button, Grid, Typography, Box } from "@mui/material";
 import { CarouselContainer } from "./carouselStyle";
-import Image from "next/image";
 
 export default function MyCarousel({ items }) {
+  
   return (
     
-      <Carousel >
+      <Carousel sx={{
+        marginBottom: "67px",
+        bgcolor:"white"
+      }} >
         {items && items.length? items.map((item)=>(
        <Box  position={"relative"} key={item.id} sx={{ display : "flex" , justifyContent : "center" , bgcolor: "#D4E6F4"}}>
         <Box  paddingTop={"36px"} position={"absolute"} sx={{display:"flex" , flexDirection: "column", alignItems: "center"}}>

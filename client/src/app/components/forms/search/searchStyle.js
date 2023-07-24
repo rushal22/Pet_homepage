@@ -8,6 +8,6 @@ export const SearchContainer = styled(Box)(({ theme }) => ({
 
 export const SearchField = styled(TextField)(({ theme }) => ({
   border: "solid blue 1px",
-  borderRadius: "10px", //TODO: keep actual radius
+  borderRadius: "10px",
   outline: "none",
 }));

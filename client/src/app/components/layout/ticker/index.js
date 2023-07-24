@@ -4,8 +4,8 @@ import { TickerContainer } from "./tickerStyles";
 export default function Ticker() {
   return (
     <TickerContainer>
-      <Typography variant="" color="custom.darkwhite">
-        Call us for veterinary support: +977
+      <Typography variant="h8" color="custom.darkwhite">
+      Call us for Veterinary Support: +977-9861859764
       </Typography>
     </TickerContainer>
   );

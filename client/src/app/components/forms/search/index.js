@@ -17,7 +17,7 @@ export default function Search() {
         style={textFieldStyle}
         label="Search"
         placeholder="Search...."
-        fullWidth
+        sx={{width: "274px" }}
         variant="outlined"
         InputProps={{
           endAdornment: (

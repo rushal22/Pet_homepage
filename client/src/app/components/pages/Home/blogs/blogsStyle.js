@@ -1,10 +1,25 @@
 import { styled, Box } from "@mui/material";
 
 export const BlogsContainer = styled(Box)(({ theme }) => ({
-  padding: "0px 100px", //TODO: keep actual padding
-  height: "300px", //TODO: Actual Height
-  backgroundColor: theme.palette.custom.darkwhite,
+  margin: "122px 0px", 
+  padding: "0px 91px" ,
+  height: "524px", 
+  width: "100%",
+  backgroundColor: theme.palette.custom.darkwhite,  
+}));
+
+export const BlogDetailsContainer = styled(Box)(({ theme }) => ({
+  display: "flex",
+  color: "black",
+  justifyContent: "center",
+ 
+}));
+
+export const BlogCardContainer = styled(Box)(({ theme }) => ({
+  marginTop: "64px",
   display: "flex",
   justifyContent: "space-between",
-  alignItems: "center",
+  flexWrap: "wrap",
+  width: "100%",
+  gap: "35px",
 }));
