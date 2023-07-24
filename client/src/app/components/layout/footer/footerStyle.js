@@ -2,11 +2,13 @@ import { styled, Box } from "@mui/material";
 
 export const FooterContainer = styled(Box)(({ theme }) => ({
   height: "650px", 
-  backgroundColor: theme.palette.custom.darkblue,
+  backgroundColor: theme?.palette?.custom?.darkblue
+,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  color: theme.palette.custom.darkwhite,
+  color: theme?.palette?.custom?.darkwhite
+,
 }));
 
 export const FooterDetailWrapper = styled(Box)(({ theme }) => ({

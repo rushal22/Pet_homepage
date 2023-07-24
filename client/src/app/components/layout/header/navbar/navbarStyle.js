@@ -1,7 +1,8 @@
 import { styled, Box } from "@mui/material";
 
 export const NavbarContainer = styled(Box)(({ theme }) => ({
-  backgroundColor: theme.palette.custom.darkwhite,
+  backgroundColor: theme?.palette?.custom?.darkwhite
+,
   display: "flex",
   width: "90%",
   justifyContent: "space-between",

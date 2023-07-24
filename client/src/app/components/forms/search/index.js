@@ -32,8 +32,9 @@ export default function Search() {
                 color="inherit"
                 aria-label="search"
                 style={{
-                  background: theme.palette.custom.blue,
-                  color: theme.palette.custom.darkwhite,
+                  background: theme?.palette?.custom?.blue,
+                  color: theme?.palette?.custom?.darkwhite
+,
                 }}
               >
                 <SearchIcon />

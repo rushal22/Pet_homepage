@@ -24,7 +24,7 @@ export default function Header() {
       <HeaderWrapperRight>
         <Search />
         <Box>
-          <FavoriteIcon style={{ color: theme.palette.custom.blue }} />
+          <FavoriteIcon style={{ color: theme?.palette?.custom?.blue }} />
         </Box>
         <CartBtn />
       </HeaderWrapperRight>

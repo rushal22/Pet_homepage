@@ -3,7 +3,8 @@ import { styled, Box } from "@mui/material";
 export const PetCollectionsContainer = styled(Box)(({ theme }) => ({
   padding: "122px 100px",
  
-  backgroundColor: theme.palette.custom.darkwhite,
+  backgroundColor: theme?.palette?.custom?.darkwhite
+,
   display: "flex",
   flexDirection: "column",
   alignItems: "center",

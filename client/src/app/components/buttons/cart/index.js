@@ -9,7 +9,7 @@ export default function CartBtn() {
     <CartBtnContainer>
       <ShoppingCartIcon
         style={{
-          color: theme.palette.custom.blue,
+          color: theme?.palette?.custom?.blue,
         }}
       />
       <CartBtnText variant="ct1">2 Item</CartBtnText>

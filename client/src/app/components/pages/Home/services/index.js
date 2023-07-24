@@ -4,7 +4,7 @@ import {
   ServicesCardContainer,
   ServicesDetailsContainer,
 } from "./servicesStyle";
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import ServiceCard from "./card";
 
 export default function Services({ serviceData }) {

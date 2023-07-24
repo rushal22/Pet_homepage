@@ -80,10 +80,12 @@ export default function AboutUs({ aboutusData }) {
       <AboutUsContainerRight>
         {aboutusData && (
           <Box>
-            <Typography style={{color: theme.palette.custom.darkblue}} variant="h1" fontFamily={"Nunito"}>
+            <Typography style={{color: theme?.palette?.custom?.darkblue
+}} variant="h1" fontFamily={"Nunito"}>
               {aboutusData.title}
             </Typography>
-            <Typography style={{color: theme.palette.custom.grey}} variant="h4" fontFamily={"Nunito"}>
+            <Typography style={{color: theme?.palette?.custom?.darkgrey
+}} variant="h4" fontFamily={"Nunito"}>
               {aboutusData.description}
             </Typography>
 
@@ -93,7 +95,8 @@ export default function AboutUs({ aboutusData }) {
                     <AboutUsListItem key={item.id}>
                       <CheckCircleOutlineIcon
                         style={{
-                          color: theme.palette.custom.blue,
+                          color: theme?.palette?.custom?.blue
+,
                           height: "13.84px",
                           width: "13.3px",
                         }}
@@ -108,8 +111,10 @@ export default function AboutUs({ aboutusData }) {
                 width: "160.87px",
                 height: "50px",
                 padding: "10px 0",
-                color: theme.palette.custom.darkwhite,
-                backgroundColor: theme.palette.custom.blue,
+                color: theme?.palette?.custom?.darkwhite
+,
+                backgroundColor: theme?.palette?.custom?.blue
+,
               }}
               variant="extended"
               aria-label="add"
@@ -118,8 +123,10 @@ export default function AboutUs({ aboutusData }) {
               <NavigateNextIcon
                 sx={{
                   marginLeft: "40px",
-                  backgroundColor: theme.palette.custom.darkwhite,
-                  color: theme.palette.custom.blue,
+                  backgroundColor: theme?.palette?.custom?.darkwhite
+,
+                  color: theme?.palette?.custom?.blue
+,
                   borderRadius: "50%",
                 }}
               />

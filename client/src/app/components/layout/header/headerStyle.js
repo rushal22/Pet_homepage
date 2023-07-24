@@ -4,7 +4,8 @@ export const HeaderContainer = styled(Box)(({ theme }) => ({
   padding: "0px 100px", 
   height: "102px", 
   paddingBottom: "32px",
-  backgroundColor: theme.palette.custom.darkwhite,
+  backgroundColor: theme?.palette?.custom?.darkwhite
+,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",

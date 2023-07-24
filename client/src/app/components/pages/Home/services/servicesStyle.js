@@ -2,7 +2,8 @@ import { styled, Box } from "@mui/material";
 
 export const ServicesContainer = styled(Box)(({ theme }) => ({
   padding: "67px 80px 0 80px",
-  backgroundColor: theme.palette.custom.darkwhite,
+  backgroundColor: theme?.palette?.custom?.darkwhite
+,
   display: "flex",
   flexDirection: "column",
   alignItems: "center",

@@ -25,7 +25,8 @@ export const OneMoreFriendDetailsWrapper = styled(Box)(({ theme }) => ({
 }));
 
 export const OneMoreFriendTextWraper = styled(Typography)(({ theme }) => ({
-  color: theme.palette.custom.darkwhite,
+  color: theme?.palette?.custom?.darkwhite
+,
   padding: "10px 0",
 }));
 

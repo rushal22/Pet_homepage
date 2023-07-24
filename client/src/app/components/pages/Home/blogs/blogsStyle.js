@@ -5,7 +5,8 @@ export const BlogsContainer = styled(Box)(({ theme }) => ({
   padding: "0px 91px" ,
   height: "524px", 
   width: "100%",
-  backgroundColor: theme.palette.custom.darkwhite,  
+  backgroundColor: theme?.palette?.custom?.darkwhite
+,  
 }));
 
 export const BlogDetailsContainer = styled(Box)(({ theme }) => ({

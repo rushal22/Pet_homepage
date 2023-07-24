@@ -4,7 +4,7 @@ export const CartBtnContainer = styled(Box)(({ theme }) => ({
   padding: "10px",
   height: "40px",
   width: "100px",
-  border: `solid ${theme.palette.custom.blue} 1px`,
+  border: `solid ${theme?.palette?.custom?.blue} 1px`,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",

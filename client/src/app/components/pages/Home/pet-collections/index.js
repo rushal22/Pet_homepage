@@ -34,7 +34,8 @@ export default function PetCollections({ petData }) {
           sx={{
             width: "180px",
             height: "50px",
-            background: theme.palette.custom.blue,
+            background: theme?.palette?.custom?.blue
+,
             padding: "20px",
           }}
           variant="extended"

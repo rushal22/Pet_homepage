@@ -8,9 +8,11 @@ export default function NavBar() {
   const theme = useTheme();
   const [selected, setSelected] = useState(1);
   const selectedStyle = {
-    color: theme.palette.custom.blue,
+    color: theme?.palette?.custom?.blue
+,
     cursor: "pointer",
-    borderBottom: `2px solid ${theme.palette.custom.blue}`,
+    borderBottom: `2px solid ${theme?.palette?.custom?.blue
+}`,
   };
 
   return (

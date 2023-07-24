@@ -2,7 +2,8 @@ import { styled, Box } from "@mui/material";
 
 export const AboutUsContainer = styled(Box)(({ theme }) => ({
   padding: "150px 100px",
-  backgroundColor: theme.palette.custom.darkwhite,
+  backgroundColor: theme?.palette?.custom?.darkwhite
+,
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
@@ -33,9 +34,11 @@ export const BlueCircleImageWrapper = styled(Box)(({ theme }) => ({
 
 export const HighFiveImageWrapper = styled(Box)(({ theme }) => ({
   position: "absolute",
-  border: `solid ${theme.palette.custom.darkwhite} 5px`,
+  border: `solid ${theme?.palette?.custom?.darkwhite
+} 5px`,
   borderRadius: "16px",
-  background: theme.palette.custom.darkwhite,
+  background: theme?.palette?.custom?.darkwhite
+,
 }));
 
 export const DogCatchImageWrapper = styled(Box)(({ theme }) => ({
